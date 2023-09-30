@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Localhost Style Changer",
+    "version": "1.0",
+    "author": "Antares",
+    "description": "Change styles on localhost",
+    "content_scripts": [
+      {
+        "matches": ["http://localhost:*/"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "icons": {
+    },
+    "update_url": "https://clients2.google.com/service/update2/crx"
+  }
+  
